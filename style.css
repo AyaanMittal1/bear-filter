@@ -1,0 +1,24 @@
+body{
+    background-image: url("background.jpg");
+}
+button{
+    font-size: 15px !important;
+
+}
+.btn-warning:hover{
+    color: black;
+    background-color: lightblue;
+}
+canvas{
+    border: orange ridge 8px;
+    animation-name: animation19;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation19{
+    /* from{box-shadow: 10px 10px 20px blue;}
+    to{box-shadow: 10px 10px 20px green;}; */
+    0%{box-shadow: 10px 10px 20px blue;}
+    50%{box-shadow: 10px 10px 20px green;}
+    100%{box-shadow: 10px 10px 20px red;}
+}
